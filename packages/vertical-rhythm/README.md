@@ -33,12 +33,12 @@ Quick start
    $vr-line-height: 1.2;  // Defaults to 1.5. Depends on typeface.
    ```
 
-4. Call `vr-init()` in the root element (usually `html`):
+4. Include `vr-init` in the root element (usually `html`):
 
    ```sass
    html {
      // Set default font-size and line-height.
-     vr-init();
+     @include vr-init;
    }
    ```
 
@@ -66,6 +66,14 @@ Quick start
 
      margin-top: vr(0.7, $baseline);
      margin-bottom: vr(0.3, $baseline);
+   }
+   ```
+
+7. Use `vr-grid` to display baseline grid for debugging:
+
+   ```sass
+   body {
+     @include vr-grid;
    }
    ```
 

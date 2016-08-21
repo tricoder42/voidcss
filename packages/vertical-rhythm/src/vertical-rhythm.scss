@@ -46,3 +46,22 @@ $vr-baseline: $vr-font-size * $vr-line-height !default;
 
   @return $new-baseline;
 }
+
+/// Show baseline grid for debugging
+/// @param {string} $color    Color of grid lines (default: bleu de france)
+/// @param {string} $bg-color Color of background (default: transparent)
+/// @param {number} $baseline Line-height (default: $vr-line-height)
+@mixin vr-grid(
+  $color: #3c91e6, // bleu de france
+  $bg-color: transparent,
+  $baseline: $vr-baseline
+) {
+  background-color: $bg-color;
+  background-image: linear-gradient(
+      0deg,
+      transparent 0%,
+      $color 1%,
+      transparent 2%
+  );
+  background-size: $baseline $baseline;
+}
