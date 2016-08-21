@@ -1,6 +1,6 @@
 {
   "name": "voidcss-vertical-rhythm",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "VoidCSS plugin to help maintain consistent baseline",
   "scripts": {
     "test": "mocha src/tests.js"
