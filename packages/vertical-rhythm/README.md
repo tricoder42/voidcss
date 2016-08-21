@@ -14,6 +14,7 @@ More info:
  - [Why is Vertical Rhythm an Important Typography Practice?](http://zellwk.com/blog/why-vertical-rhythms/)
  - [Improving Layout With Vertical Rhythm](http://webdesign.tutsplus.com/articles/improving-layout-with-vertical-rhythm--webdesign-14070)
 
+![Screencast](./intro.gif)
 
 Quick start
 -----------
