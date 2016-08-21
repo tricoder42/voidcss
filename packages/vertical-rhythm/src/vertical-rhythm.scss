@@ -15,7 +15,7 @@ $vr-line-height: 1.5 !default;
 /// The height of one line.
 /// Usually calculated as a product of font size and line height.
 /// @type number
-$vr-baseline: $font-base * $line-height !default;
+$vr-baseline: $vr-font-base * $vr-line-height !default;
 
 
 /// Initialize the base font settings and setup baseline.
