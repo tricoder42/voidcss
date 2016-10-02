@@ -6,9 +6,9 @@ Minimal, modular, non-existent css framework
 Plugins
 -------
 
-| Plugin name | Namespace | Status |
-|-|-|-|-|-|
-| Vertical Rhythm | vr | [![CircleCI](https://circleci.com/gh/tricoder42/voidcss-vertical-rhythm.svg?style=svg)](https://circleci.com/gh/tricoder42/voidcss-vertical-rhythm) |
+Package name | Namespace | Status
+---|---|---
+[voidcss-vertical-rhythm](https://github.com/tricoder42/voidcss-vertical-rhythm) | `vr` | [![CircleCI](https://circleci.com/gh/tricoder42/voidcss-vertical-rhythm.svg?style=svg)](https://circleci.com/gh/tricoder42/voidcss-vertical-rhythm)
 
 External Plugins
 ----------------
